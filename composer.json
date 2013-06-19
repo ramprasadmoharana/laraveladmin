@@ -1,0 +1,23 @@
+{
+    "name": "ramprasadmoharana/laraveladmin",
+    "description": "",
+    "authors": [
+        {
+            "name": "Ramprasad",
+            "email": "aniketsanu@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Ramprasadmoharana\\Laraveladmin": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
